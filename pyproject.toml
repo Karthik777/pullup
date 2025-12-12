@@ -1,0 +1,15 @@
+[project]
+name="pullup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python=">=3.9"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "jupyterlab>=4.5.0",
+    "jupyterlab-quarto>=0.3.5",
+    "nbdev>=2.4.6",
+    "notebook>=7.5.0",
+]
